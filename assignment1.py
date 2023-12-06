@@ -8,7 +8,7 @@ def first_and_last(string):
         return True
     return False
 
-print(first_and_last('Test'))
+print(first_and_last(''))
 
 
 """
