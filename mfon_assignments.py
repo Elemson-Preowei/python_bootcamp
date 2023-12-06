@@ -62,6 +62,10 @@ def sum_of_nos(num):
         res += x
     print(res)
 
+# Careful there superman!
+# The instruction says to return, and not to print.
+# But this looks great!!
+
 """
 5.
 Write a program that takes a number and returns its factorial. 
