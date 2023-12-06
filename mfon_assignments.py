@@ -120,6 +120,8 @@ def smallest(list):
     list.sort()
     return list[0]
 
+# Yep. This too. Please do it without sorting and reach out to me.
+
 """
 8.
 Write a program that returns the length of a list.
