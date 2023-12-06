@@ -79,7 +79,18 @@ def fact_of_nos(num):
     for x in range (1, num+1):
        fact = v * x
        v = fact
-    print(fact)  
+    print(fact)
+
+# Hmmmmmmm
+# This could be a lot simpler
+
+def factorial(num):
+    temp = 1
+    for i in range(1, num + 1):
+        temp = temp * i
+    return temp
+
+# Yeah, and also, return don't print!
 
 """
 6.
