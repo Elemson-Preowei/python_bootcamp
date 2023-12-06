@@ -149,6 +149,12 @@ def list_sum(list):
         sum += x
     return sum
 
+# Awesome!
+# But, heads-up: `sum` is a keyword in Python.
+# You don't want to use it as avariable name o!
+# Bad things could happen.
+# Very, very bad things could happen.
+
 """
 10.
 Write a program that checks the validity of a password.
