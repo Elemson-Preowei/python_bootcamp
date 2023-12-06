@@ -22,6 +22,18 @@ def repeater(n):
         print(num*rep)
         rep +=1
 
+# Mfonism says:
+# This looks great. I have one tiny improvement here.
+# The key is to notice that each number x is repeated x times.
+# 1 is repeated 1 time
+# 2, 2 times
+# 3, 3 times
+# So we really don't have need for the variable `rep`
+
+def repeater_v2(n):
+    for num in range(1,n+1):
+        print(str(num) * num)
+
 """
 3.
 Now write a program that takes a number n, and prints out the reverse of 
@@ -34,6 +46,10 @@ def repeater_rev(n):
         num = str(num)
         print(num*rep)
         rep -=1
+
+# You can use the strategy from `repeater_v2` to make
+# this one more compact as well
+
 """
 4.
 Write a program that takes a number n and returns the sum of all the numbers from 1 to n.
@@ -45,6 +61,10 @@ def sum_of_nos(num):
     for x in range (num+1):
         res += x
     print(res)
+
+# Careful there superman!
+# The instruction says to return, and not to print.
+# But this looks great!!
 
 """
 5.
@@ -59,7 +79,18 @@ def fact_of_nos(num):
     for x in range (1, num+1):
        fact = v * x
        v = fact
-    print(fact)  
+    print(fact)
+
+# Hmmmmmmm
+# This could be a lot simpler
+
+def factorial(num):
+    temp = 1
+    for i in range(1, num + 1):
+        temp = temp * i
+    return temp
+
+# Yeah, and also, return don't print!
 
 """
 6.
@@ -72,6 +103,12 @@ def largest(list):
     list.sort()
     return list[-1]
 
+# Oooooooh. This is smart.
+# 👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾
+
+# That said, can you do it without sorting?
+# Please do it without sorting and reach out to me.
+
 """
 7.
 Write a program that returns the smallest number in a list of numbers.
@@ -82,6 +119,8 @@ Please do not use the `min` function.
 def smallest(list):
     list.sort()
     return list[0]
+
+# Yep. This too. Please do it without sorting and reach out to me.
 
 """
 8.
@@ -110,6 +149,12 @@ def list_sum(list):
         sum += x
     return sum
 
+# Awesome!
+# But, heads-up: `sum` is a keyword in Python.
+# You don't want to use it as avariable name o!
+# Bad things could happen.
+# Very, very bad things could happen.
+
 """
 10.
 Write a program that checks the validity of a password.
@@ -121,3 +166,14 @@ def validity():
         print ('Very Good!')
     else:
         print('Bad Student! Mfon will flog you!')
+
+# Oh, no. This one is totally on me.
+# I didn't specify the validity rules 😭😭😭😭😭
+
+# Anyways, please rewrite this with the following validity rules:
+# * a valid password must have at least 8 characters in it
+# * a valid password can contain only letters of the english alphabet and numeric digits and any of the following symbols ! - _ + ^
+# * a valid password MUST have at least one lowercase letter
+# * a valid password MUST have at least one uppercase letter
+# * a valid password MUST have at least one digit
+# * a valid password MUST have at least one of the following symbols ! - _ + ^
