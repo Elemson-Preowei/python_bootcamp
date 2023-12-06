@@ -166,3 +166,14 @@ def validity():
         print ('Very Good!')
     else:
         print('Bad Student! Mfon will flog you!')
+
+# Oh, no. This one is totally on me.
+# I didn't specify the validity rules 😭😭😭😭😭
+
+# Anyways, please rewrite this with the following validity rules:
+# * a valid password must have at least 8 characters in it
+# * a valid password can contain only letters of the english alphabet and numeric digits and any of the following symbols ! - _ + ^
+# * a valid password MUST have at least one lowercase letter
+# * a valid password MUST have at least one uppercase letter
+# * a valid password MUST have at least one digit
+# * a valid password MUST have at least one of the following symbols ! - _ + ^
