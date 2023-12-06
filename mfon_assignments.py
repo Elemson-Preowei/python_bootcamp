@@ -22,6 +22,18 @@ def repeater(n):
         print(num*rep)
         rep +=1
 
+# Mfonism says:
+# This looks great. I have one tiny improvement here.
+# The key is to notice that each number x is repeated x times.
+# 1 is repeated 1 time
+# 2, 2 times
+# 3, 3 times
+# So we really don't have need for the variable `rep`
+
+def repeater_v2(n):
+    for num in range(1,n+1):
+        print(str(num) * num)
+
 """
 3.
 Now write a program that takes a number n, and prints out the reverse of 
