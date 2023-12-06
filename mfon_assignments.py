@@ -103,6 +103,12 @@ def largest(list):
     list.sort()
     return list[-1]
 
+# Oooooooh. This is smart.
+# 👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾👏🏾
+
+# That said, can you do it without sorting?
+# Please do it without sorting and reach out to me.
+
 """
 7.
 Write a program that returns the smallest number in a list of numbers.
