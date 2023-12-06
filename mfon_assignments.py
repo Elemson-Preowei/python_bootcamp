@@ -46,6 +46,10 @@ def repeater_rev(n):
         num = str(num)
         print(num*rep)
         rep -=1
+
+# You can use the strategy from `repeater_v2` to make
+# this one more compact as well
+
 """
 4.
 Write a program that takes a number n and returns the sum of all the numbers from 1 to n.
