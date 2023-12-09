@@ -207,7 +207,7 @@ def validity():
 # * a valid password MUST have at least one of the following symbols ! - _ + ^
 
 """
-Sorry this one was a little too hard for me **cries**
+Sorry this one was a little too hard for me 😭😭😭😭😭
 """  
 def validity():
     alpha = "abcdefghijklmnopqrstuvwxyz"
@@ -224,6 +224,8 @@ def validity():
     print(factor)
 
 """
+Although incomplete.
+
 The idea was to increase factor by 1 everytime the password met a criteria,
 and at the end of the code, if factor less than 5,  return invalid, else return valid.
 But this was harder than i thought and i spent too long failing. Please help.
