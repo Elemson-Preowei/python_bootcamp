@@ -50,6 +50,10 @@ def repeater_rev(n):
 # You can use the strategy from `repeater_v2` to make
 # this one more compact as well
 
+def repeater_rev_v2(n):
+    for num in range(n,0,-1):
+        print(str(num) * num)
+
 """
 4.
 Write a program that takes a number n and returns the sum of all the numbers from 1 to n.
@@ -65,6 +69,12 @@ def sum_of_nos(num):
 # Careful there superman!
 # The instruction says to return, and not to print.
 # But this looks great!!
+
+def sum_of_nos_v2(num):
+    res = 0
+    for x in range (num+1):
+        res += x
+    return res
 
 """
 5.
@@ -109,6 +119,12 @@ def largest(list):
 # That said, can you do it without sorting?
 # Please do it without sorting and reach out to me.
 
+def largest_v2(list):
+    res = list[0]
+    for num in list:
+        if num > res:
+            res = num
+    return res
 """
 7.
 Write a program that returns the smallest number in a list of numbers.
@@ -122,6 +138,12 @@ def smallest(list):
 
 # Yep. This too. Please do it without sorting and reach out to me.
 
+def smallest_v2(list):
+    res = list[0]
+    for num in list:
+        if num < res:
+            res = num
+    return res
 """
 8.
 Write a program that returns the length of a list.
@@ -155,6 +177,12 @@ def list_sum(list):
 # Bad things could happen.
 # Very, very bad things could happen.
 
+def list_sum(list):
+    res = 0
+    for x in list:
+        res += x
+    return res
+
 """
 10.
 Write a program that checks the validity of a password.
@@ -177,3 +205,26 @@ def validity():
 # * a valid password MUST have at least one uppercase letter
 # * a valid password MUST have at least one digit
 # * a valid password MUST have at least one of the following symbols ! - _ + ^
+
+"""
+Sorry this one was a little too hard for me **cries**
+"""  
+def validity():
+    alpha = "abcdefghijklmnopqrstuvwxyz"
+    num = "123456789"
+    sym = "!-_+^"
+    factor = 0
+
+    Password = str(input('Enter Password: '))
+    if len(Password) >= 8:
+        factor += 1 
+    elif alpha in Password:
+        factor +=1
+    
+    print(factor)
+
+"""
+The idea was to increase factor by 1 everytime the password met a criteria,
+and at the end of the code, if factor less than 5,  return invalid, else return valid.
+But this was harder than i thought and i spent too long failing. Please help.
+"""  
