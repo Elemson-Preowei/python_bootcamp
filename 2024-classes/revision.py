@@ -67,3 +67,12 @@ for book in books:
 for book in books:
     print('--------------------------------------')
     print(book)
+
+"""
+# ASSIGNMENT
+Write a function that checks if a string is a palindrome.
+If the string is a palindrome, it should return a sentence
+telling us the <string> is a palindrome.
+If the string is not a palindrome, it should return a sentence
+telling us the <string> is not a palindrome.
+"""
