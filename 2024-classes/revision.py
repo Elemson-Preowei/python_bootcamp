@@ -54,3 +54,9 @@ print(books[0])
 # iterate through the items of the books list, if there is no qty, add 
 qty sold with a default value of 5 for each
 """
+books[2]['isbn'] = 200494
+books[2]['pages'] = 12
+books[3]['isbn'] = 200594
+books[3]['pages'] = 5000
+
+print(books)
