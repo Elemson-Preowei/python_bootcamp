@@ -29,6 +29,14 @@ books = [
         'qty': 350,
         'pages': 890,
         'other_authors': ['Redmond Wilk', 'Peter Dury']
+    },
+    {
+        'title': 'Classwork of Elemson',
+        'author': 'Mr Otuekong'
+    },
+    {
+        'title': 'Chronicles of Python',
+        'author': 'Mfonism'
     }
 ]
 book1 = books[0]
