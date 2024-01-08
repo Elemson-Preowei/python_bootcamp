@@ -60,3 +60,10 @@ books[3]['isbn'] = 200594
 books[3]['pages'] = 5000
 
 print(books)
+
+for book in books:
+    if 'qty' not in book:
+        book['qty'] = 5
+for book in books:
+    print('--------------------------------------')
+    print(book)
