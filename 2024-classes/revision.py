@@ -52,3 +52,9 @@ print(books[0])
 # using the books list, add 2 new items representing different books
 # write a code to add isbn number and number of pages to the two new items
 """
+books[2]['isbn'] = 200494
+books[2]['pages'] = 12
+books[3]['isbn'] = 200594
+books[3]['pages'] = 5000
+
+print(books)
