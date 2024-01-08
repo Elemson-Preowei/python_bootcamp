@@ -51,4 +51,6 @@ print(books[0])
 """
 # using the books list, add 2 new items representing different books
 # write a code to add isbn number and number of pages to the two new items
+# iterate through the items of the books list, if there is no qty, add 
+qty sold with a default value of 5 for each
 """
