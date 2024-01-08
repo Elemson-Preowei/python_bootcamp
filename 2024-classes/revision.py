@@ -42,4 +42,5 @@ print(books[0])
 # classwork
 """
 # using the books list, add 2 new items representing different books
+# write a code to add isbn number and number of pages to the two new items
 """
