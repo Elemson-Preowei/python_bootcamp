@@ -76,3 +76,10 @@ telling us the <string> is a palindrome.
 If the string is not a palindrome, it should return a sentence
 telling us the <string> is not a palindrome.
 """
+
+def palindrome_checker(string):
+    if string == string[: : -1]:
+        return f'{string} is a palindrome'
+    return f'{string} is not a palindrome'
+
+print(palindrome_checker('aia'))
