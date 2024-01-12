@@ -82,4 +82,7 @@ def palindrome_checker(string):
         return f'{string} is a palindrome'
     return f'{string} is not a palindrome'
 
-print(palindrome_checker('aia'))
+print(palindrome_checker('aial'))
+
+def sum():
+    return 2 + 2
